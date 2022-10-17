@@ -3,7 +3,7 @@
     <Header></Header>
     <router-view></router-view>
 <!--    在home，search显示的，在登录，注册隐藏-->
-    <Footer v-show="$route.meta.show"></Footer>
+    <Footer></Footer>
   </div>
 </template>
 

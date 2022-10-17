@@ -14,11 +14,12 @@ export default new VueRouter({
             path:"/home",
             component:Home,
             mate:{
-                show:true
+                // show:true
             }
         },
         {
-            path:"/search",
+            name:'search',
+            path:"/search/:keyword",
             component:Search,
             mate:{
                 show:true
@@ -28,14 +29,14 @@ export default new VueRouter({
             path:"/login",
             component:Login,
             mate:{
-                show:false
+                show:true
             }
         },
         {
             path:"/register",
             component:Register,
             mate:{
-                show:false
+                // show:true
             }
         },
         //重定向，在项目跑起来的时候，访问/，立马让他定向到Home
