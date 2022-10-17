@@ -3,7 +3,6 @@ import App from './App.vue'
 import router from "@/router";
 //三级联动组件，全局组件
 import TypeNav from "@/pages/Home/TypeNav/TypeNav";
-
 import {reqCategoryList} from "@/api";
 reqCategoryList();
 Vue.config.productionTip = false
