@@ -58,10 +58,13 @@ export default {
       // categoryList(state){
       //  return state.home.categoryList;
       // }
-
       categoryList:state=>state.home.categoryList
-
     })
+  },
+  data(){
+    return{
+      currentIndex:0
+    }
   }
 }
 </script>
