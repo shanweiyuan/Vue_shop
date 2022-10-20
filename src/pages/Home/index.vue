@@ -21,8 +21,8 @@ import Floor from "@/pages/Home/Floor/Floor";
 import Brand from "@/pages/Home/Brand/Brand";
 export default {
   components: {Brand, Floor, Like, Rank, Recommend, ListContainer},
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: "index"
+
+  name: "Home"
 }
 </script>
 
